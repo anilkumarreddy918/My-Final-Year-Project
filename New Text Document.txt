@@ -1,0 +1,47 @@
+npm install -g truffle
+npm install cors --save
+#compile contract
+truffle compile
+
+#compile contract
+truffle compile
+
+#Deploy contract
+truffle migrate --network development  --reset --all
+
+#for running the code
+node Scripts/Expressethserver.js
+
+
+
+1_deploy.js
+===========
+
+   Replacing 'Ecoupon'
+   -------------------
+   > transaction hash:    0x9cd36f79ac34ae61bd4351f9ad66f250d8dc39f17eab78c155e4efa475ca9049
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xae354dCc5FFC654B50E030d08db7edaBD5144D77
+   > block number:        11
+   > block timestamp:     1668082445
+   > account:             0x67E8a588fd4093ee53764962D9A0F0f3bC4B9061
+   > balance:             99.87707612
+   > gas used:            706642 (0xac852)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01413284 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.01413284 ETH
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.01413284 ETH
+
+
+
+
+0x4db51b61ab9049a7fcb5d1d1b7ff85d1915bb070193314c9c92fcfc9e2be8e7c
+

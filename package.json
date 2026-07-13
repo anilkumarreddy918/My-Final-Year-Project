@@ -1,0 +1,25 @@
+{
+  "name": "ecoupon---truffle---ganache",
+  "version": "1.0.0",
+  "description": "ecoupon with truffle and local blockchain ganache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gts",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.5.0",
+    "truffle": "^5.1.65"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.41-1",
+    "add": "^2.0.6",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "find": "^0.3.0",
+    "find-config": "^1.0.0"
+  }
+}
